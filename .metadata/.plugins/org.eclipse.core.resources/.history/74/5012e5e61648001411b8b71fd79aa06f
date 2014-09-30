@@ -1,0 +1,19 @@
+<t:layout t:sidebarTitle="Framework Version"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns:p="tapestry:parameter">
+       <center>
+       <body class="commonbody">
+       <table>
+       
+       <tr><h1>Welcome ${username} This is home page</h1></tr>
+       
+       <tr style="height: 30px;">
+         <t:footer/>
+         </tr>
+       
+       </table>
+       <t:pagelink page="WhetherDetails">Show 10 days whether details</t:pagelink>
+       </body>
+       </center>
+
+</t:layout>

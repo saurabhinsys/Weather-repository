@@ -1,0 +1,31 @@
+<html 
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns:p="tapestry:parameter">
+      
+      <center>
+      <h1>Login Page</h1>
+      <br></br>
+      
+      <br></br>
+      <body>
+      <t:form t:id="loginForm">
+	  <t:if t:test="checkCredential">
+	  <p font:color="Red">${message:validateMessage}</p>
+	  </t:if>
+      <table>
+      <tr>
+      <td>Username</td>
+      <td><t:textfield t:value="username"/></td>
+      </tr>
+      
+      <tr>
+      <td>Password</td>
+      <td><t:passwordfield t:value="password"/></td>
+      </tr>
+      </table>
+      <input type="submit" value="Submit"/>
+      </t:form>
+      </body>
+      </center>
+
+</html>

@@ -1,0 +1,111 @@
+package com.example.pages;
+
+import java.util.Date;
+import org.apache.tapestry5.annotations.*;
+import org.apache.tapestry5.ioc.annotations.*;
+import org.apache.tapestry5.corelib.components.*;
+import org.apache.tapestry5.SymbolConstants;
+import org.apache.tapestry5.alerts.AlertManager;
+
+/**
+ * Start page of application newapp.
+ */
+public class Index
+{
+private String username = "username";
+private String password = "password";
+
+
+   /* @Property
+    @Inject
+    @Symbol(SymbolConstants.TAPESTRY_VERSION)
+    private String tapestryVersion;
+
+    @InjectComponent
+    private Zone zone;
+
+    @Persist
+    @Property
+    private int clickCount;
+
+    @Inject
+    private AlertManager alertManager;
+
+    public Date getCurrentTime()
+    {
+        return new Date();
+    }
+
+    void onActionFromIncrement()
+    {
+        alertManager.info("Increment clicked");
+
+        clickCount++;
+    }
+
+    Object onActionFromIncrementAjax()
+    {
+        clickCount++;
+
+        alertManager.info("Increment (via Ajax) clicked");
+
+        return zone;
+    }
+*/
+
+	@InjectPage
+	private Home home;
+	
+	@SessionState
+	private User user;
+	
+	public User getUser() {
+		return user;
+	}
+
+
+	public String getMessage(){
+		return "print Message";
+	}
+	
+	public Date getCurrentTime(){
+		return new Date();
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		
+		System.out.println("Setting the username");
+		this.username = username;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		
+		System.out.println("Setting the password");
+		this.password = password;
+	}
+	
+	@OnEvent(value="submit", component="loginForm")
+	Object doLogin(){
+		
+		System.out.println("Handling Login form submission");
+		home.setUsername(username);
+		home.setPassword(password);
+		
+	/*	user.setLastname("Kumar");
+		user.setPassword("kmrr");*/
+		
+		return home;
+		
+	}
+	
+	
+	
+}

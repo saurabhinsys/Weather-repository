@@ -1,0 +1,27 @@
+package com.example.pages;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.example.pages.WhetherContent.WhetherInfo;
+import com.example.pages.WhetherData.WhetherIdata;
+
+public class WhetherDetails implements WhetherIdata{
+	
+	private List<WhetherInfo> whethers = new  ArrayList<WhetherInfo>();
+	
+	
+	
+	
+
+	public List<WhetherInfo> getAllWhetherInfo() {
+		
+		return null;
+	}
+
+	public void setAllWhetherInfo(WhetherInfo whether) {
+		
+		
+	}
+
+}

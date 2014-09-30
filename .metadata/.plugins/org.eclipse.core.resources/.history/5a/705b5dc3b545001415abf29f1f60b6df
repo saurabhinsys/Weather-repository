@@ -1,0 +1,27 @@
+<html 
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns:p="tapestry:parameter">
+      
+      <center>
+      <h>Login Page</h>
+      <br></br>
+      <body>
+      <t:form t:id="loginForm">
+	  
+      <table>
+      <tr>
+      <td>Username</td>
+      <td><t:textfield t:value="username"/></td>
+      </tr>
+      
+      <tr>
+      <td>Password</td>
+      <td><t:passwordfield t:value="password"/></td>
+      </tr>
+      </table>
+      <input type="submit" value="Submit"/>
+      </t:form>
+      </body>
+      </center>
+
+</html>

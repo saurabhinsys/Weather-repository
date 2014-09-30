@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.apache.tapestry5.annotations.InjectPage"/>
+<fullyQualifiedTypeName name="com.example.pages.Home"/>
+<fullyQualifiedTypeName name="org.apache.tapestry5.annotations.OnEvent"/>
+<fullyQualifiedTypeName name="org.apache.tapestry5.annotations.Persist"/>
+<fullyQualifiedTypeName name="org.apache.tapestry5.ioc.services.ApplicationDefaults"/>
+<fullyQualifiedTypeName name="com.example.pages.User"/>
+<fullyQualifiedTypeName name="org.apache.tapestry5.annotations.SessionState"/>
+<fullyQualifiedTypeName name="com.example.pages.WhetherData.WhetherIdata"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.example.pages.WhetherContent.WhetherInfo"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+</qualifiedTypeNameHistroy>

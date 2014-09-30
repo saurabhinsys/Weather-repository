@@ -1,0 +1,21 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_0_0.xsd">
+     <head>
+         <title>Tapestry 5 Demo Application</title>
+     </head>
+     <center>
+     <body>
+     <table>
+     <tr class="header">
+         <h1>Whether Reports</h1>
+         </tr>
+        <tr style="height: 200px;">
+         <t:body/>
+         </tr>
+		 </div>
+		 <div style="height: 100px;">	         
+         <t:footer/>
+         </div>
+         </table>
+     </body>
+     </center>
+</html>

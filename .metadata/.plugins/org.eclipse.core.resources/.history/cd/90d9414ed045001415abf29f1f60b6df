@@ -1,0 +1,16 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_0_0.xsd">
+     <head>
+         <title>Tapestry 5 Demo Application</title>
+     </head>
+     <body>
+         <div class="header">
+             <h1>Whether Reports</h1>
+             
+         </div>
+         ...
+         <t:body/>
+         <div id="footer">
+             Design by Saurabh
+         </div>
+     </body>
+</html>

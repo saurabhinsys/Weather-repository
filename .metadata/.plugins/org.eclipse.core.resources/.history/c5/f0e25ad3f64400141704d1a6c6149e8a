@@ -1,0 +1,22 @@
+<html>
+      
+      
+      <body>
+      <t:form t:id="loginForm">
+	  
+      <table>
+      <tr>
+      <td>User name</td>
+      <td><t:textfield t:value="username"/></td>
+      </tr>
+      
+      <tr>
+      <td>Password</td>
+      <td><t:textfield t:value="password"/></td>
+      </tr>
+      </table>
+      <input type="submit" value="Submit"/>
+      </t:form>
+      </body>
+
+</html>

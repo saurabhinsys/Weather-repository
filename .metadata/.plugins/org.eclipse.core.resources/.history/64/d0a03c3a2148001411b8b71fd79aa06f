@@ -1,0 +1,52 @@
+package com.example.pages;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.example.WhetherContent.WhetherInfo;
+import com.example.WhetherData.WhetherIdata;
+
+public class WhetherDetails implements WhetherIdata{
+	
+	public WhetherDetails() {
+		super();
+		
+		setAllWhetherInfo(new WhetherInfo("Sunday", "9/10/2014","35`C"));
+		setAllWhetherInfo(new WhetherInfo("Monday", "9/11/2014","36`C"));
+		setAllWhetherInfo(new WhetherInfo("Tuesday", "9/12/2014","32`C"));
+		setAllWhetherInfo(new WhetherInfo("Wednesday", "9/13/2014","30`C"));
+		setAllWhetherInfo(new WhetherInfo("ThursDay", "9/14/2014","32`C"));
+		setAllWhetherInfo(new WhetherInfo("Friday", "9/15/2014","35`C"));
+		setAllWhetherInfo(new WhetherInfo("Saturday", "9/16/2014","29`C"));
+		setAllWhetherInfo(new WhetherInfo("Sunday", "9/17/2014","25`C"));
+		setAllWhetherInfo(new WhetherInfo("Monday", "9/18/2014","28`C"));
+		setAllWhetherInfo(new WhetherInfo("Tuesday", "9/19/2014","26`C"));
+		
+	}
+	
+	private List<WhetherInfo> whethers = new  ArrayList<WhetherInfo>();
+	private WhetherInfo whetherInfo;
+	
+	
+	
+	public WhetherInfo getWhetherInfo() {
+		return whetherInfo;
+	}
+
+	public void setWhetherInfo(WhetherInfo whetherInfo) {
+		this.whetherInfo = whetherInfo;
+	}
+	
+	public List<WhetherInfo> getAllWhetherInfo() {
+		
+		return whethers;
+	}
+
+	public void setAllWhetherInfo(WhetherInfo whether) {
+		
+		whethers.add(whether);
+		
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_0_0.xsd">
+     <head>
+         <title>Tapestry 5 Demo Application</title>
+     </head>
+     <center>
+     <body>
+        <p style="background-color:#000000;color:#ffffff;"> ${dateAndTime}</p>
+     </body>
+     </center>
+</html>

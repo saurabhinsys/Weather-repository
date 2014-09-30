@@ -1,0 +1,19 @@
+<html 
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns:p="tapestry:parameter">
+      
+      <center>
+      <body>
+      <table width="80%">
+      <tr t:type="loop" t:source="allWhetherInfo" t:value="whetherInfo">
+      
+      
+      
+      </tr>
+      
+      
+      </table>
+      </body>
+      </center>
+
+</html>

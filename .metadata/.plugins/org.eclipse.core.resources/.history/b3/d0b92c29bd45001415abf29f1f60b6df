@@ -1,0 +1,13 @@
+package com.example.pages.WhetherData;
+
+import java.util.List;
+
+import com.example.pages.WhetherContent.WhetherInfo;
+
+public interface WhetherIdata {
+	
+	public List<WhetherInfo> getAllWhetherInfo();
+	public void setAllWhetherInfo(WhetherInfo whehter);
+	
+
+}

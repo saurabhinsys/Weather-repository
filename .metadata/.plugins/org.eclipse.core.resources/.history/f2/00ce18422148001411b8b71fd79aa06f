@@ -1,0 +1,12 @@
+package com.example.WeatherData;
+
+import java.util.List;
+
+import com.example.WhetherContent.WhetherInfo;
+
+public interface WhetherIdata {
+	
+	public List<WhetherInfo> getAllWhetherInfo();
+	public void setAllWhetherInfo(WhetherInfo whehter);
+
+}

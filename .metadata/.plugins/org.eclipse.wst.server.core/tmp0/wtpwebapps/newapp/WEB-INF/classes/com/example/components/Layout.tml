@@ -1,0 +1,23 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_0_0.xsd">
+     <head>
+         <title>Tapestry 5 Demo Application</title>
+     </head>
+     <center>
+     <body>
+     <table>
+     <tr>
+     <div class="header">
+             <h1>Weather Reports</h1>
+         </div>
+         </tr>
+        <tr>
+         <t:body/>
+         </tr>
+         <tr style="height: 30px;">
+         <t:footer/>
+         </tr>
+		 
+         </table>
+     </body>
+     </center>
+</html>

@@ -1,0 +1,23 @@
+<t:layout 
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns:p="tapestry:parameter">
+      
+      <center>
+      <body class="commonbody">
+      <h1>Whether Details</h1>
+      <br></br>
+      <table width="80%">
+      <tr t:type="loop" t:source="allWhetherInfo" t:value="whetherInfo">
+      <td> ${whetherInfo.day} </td>
+      <td> ${whetherInfo.date} </td>
+      <td> ${whetherInfo.temperature} </td>
+      </tr>
+      
+      </table>
+      <div style="height: 30px;">
+         <t:footer/>
+         </div>
+      </body>
+      </center>
+
+</t:layout>

@@ -1,0 +1,14 @@
+<html t:sidebarTitle="Framework Version"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns:p="tapestry:parameter">
+       
+       <body>
+       <table>
+       <tr>Username is : ${username}</tr>
+       <tr>Password is : ${password}</tr>
+       </table>
+       
+       <t:pagelink page="Index">Back to index page</t:pagelink>
+       </body>
+
+</html>
